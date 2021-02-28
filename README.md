@@ -5,6 +5,10 @@
 
 Minimal React boilerplate is based on create-react-app.
 
+### `npm install`
+
+First install all dependencies for the new React app after cloning the repository.
+
 ## Available Scripts
 
 In the project directory, you can run:
