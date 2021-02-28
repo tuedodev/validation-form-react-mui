@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# React Minimal Boilerplate Antoine de Saint Exupéry
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. (Antoine de Saint-Exupéry)
+
+Minimal React boilerplate is based on create-react-app.
 
 ## Available Scripts
 

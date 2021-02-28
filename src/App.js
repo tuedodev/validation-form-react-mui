@@ -1,23 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{display: 'flex', height:'100vh', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+      <p style={{fontSize: '1.6rem', fontWeight: 'bold'}}>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</p>
+      <p style={{fontSize: '1.15rem', fontWeight: 'normal'}}>Antoine de Saint-Exupéry</p>
     </div>
   );
 }
