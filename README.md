@@ -1,6 +1,7 @@
 # React Minimal Boilerplate Antoine de Saint Exupéry
 
-> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. (Antoine de Saint-Exupéry)
+> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+> &mdash;<cite>Antoine de Saint-Exupéry</cite>
 
 Minimal React boilerplate is based on create-react-app.
 
