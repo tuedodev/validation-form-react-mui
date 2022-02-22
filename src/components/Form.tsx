@@ -13,7 +13,7 @@ const Form = (props: FormProps) => {
         return isValid && isRequiredAndNotEmpty ;
     }).filter(x=>x).length === Object.keys(initValue).length;
         
-    function sumbmit(){
+    function submit(){
         let str = ALERT;
         str += Object.keys(obj).map(item=>obj[item].value).join('\n');
         alert(str);
@@ -55,7 +55,7 @@ const Form = (props: FormProps) => {
       </Box>
       <Box display="flex" justifyContent="space-around" sx={{my: 2}}>
         <Button variant="contained" onClick={reset}>Reset</Button>
-        <Button variant="contained" disabled={!valid} onClick={sumbmit}>Send</Button>
+        <Button variant="contained" disabled={!valid} onClick={submit}>Send</Button>
       </Box>
   </Box>;
 };
