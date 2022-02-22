@@ -57,14 +57,6 @@ const Form = (props: FormProps) => {
         <Button variant="contained" onClick={reset}>Reset</Button>
         <Button variant="contained" disabled={!valid} onClick={sumbmit}>Send</Button>
       </Box>
-      {/*
-        <Box>
-            <p style={{whiteSpace: 'pre-wrap', backgroundColor: obj.firstName.value.length > 0 ? (obj.firstName.isValid ? 'green':'red') : 'transparent'}}>{obj.firstName.value.length > 0 ? obj.firstName.value : ' '}</p>
-            <p style={{whiteSpace: 'pre-wrap', backgroundColor:  obj.lastName.value.length > 0 ? (obj.lastName.isValid ? 'green':'red') : 'transparent'}}>{obj.lastName.value.length > 0 ? obj.lastName.value : ' '}</p>
-            <p style={{whiteSpace: 'pre-wrap', backgroundColor:  obj.email.value.length > 0 ? (obj.email.isValid ? 'green':'red') : 'transparent'}}>{obj.email.value.length > 0 ? obj.email.value : ' '}</p>
-            <p style={{whiteSpace: 'pre-wrap', backgroundColor:  obj.title.value.length > 0 ? (obj.title.isValid ? 'green':'red') : 'transparent'}}>{obj.title.value.length > 0 ? obj.title.value : ' '}</p>
-      </Box>
-      */}
   </Box>;
 };
 
