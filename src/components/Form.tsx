@@ -18,6 +18,7 @@ const Form = (props: FormProps) => {
         str += Object.keys(obj).map(item=>obj[item].value).join('\n');
         alert(str);
     }
+    
     function reset(){
         obj.resetValue();
     }
